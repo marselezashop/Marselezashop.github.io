@@ -13,6 +13,10 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+		<select onchange="select_language(this.options[this.selectedIndex].value)">
+  			<option value="en" selected>English</option>
+  			<option value="ru">Русский</option>
+		</select>
 
 		<!-- Wrapper-->
 			<div id="wrapper">
@@ -31,12 +35,13 @@
 						<!-- Me -->
 							<article id="home" class="panel intro">
 								<header>
-									<h1>Jane Doe</h1>
-									<p>Senior Astral Projectionist</p>
+									<h1>Marseleza</h1>
+									<p lang="en" > Unique handcrafted gifts.<br>Personalized brooch, toy</p>
+									<p lang="ru" > Уникальные подарки ручной работы.<br> Персонализированная брошь, игрушка</p>
 								</header>
 								<a href="#work" class="jumplink pic">
 									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-									<img src="images/me.jpg" alt="" />
+									<img src="images/yttjREE.jpg" alt="" />
 								</a>
 							</article>
 
@@ -124,8 +129,13 @@
 
 				<!-- Footer -->
 					<div id="footer">
-						<ul class="copyright">
-							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<ul lang="en" class="copyright">
+							<li><a href="http:marseleza.etsy.com">Marseleza</a></li>
+							<li> Design:<a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+						<ul lang="ru" class="copyright">
+							<li><a href="http:marseleza.etsy.com">Марсельеза</a></li>
+							<li> Design:<a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</div>
 
@@ -137,6 +147,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/myJS.js"></script>
 
 	</body>
 </html>

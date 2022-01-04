@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("fontawesome-all.min.css");
+@font-face {font-family: 'Kurale'; src: local('Kurale'), url('fonts/Kurale-Regular.ttf'),
+	format('embedded-opentype'); font-style: normal; font-weight: 300;}
 
 /*
 	Astral by HTML5 UP
@@ -1306,7 +1308,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-image: url("images/overlay.png"), url("images/bgbg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -1770,8 +1772,12 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
+		background: #f0d5bb8a;
+		margin: 10px;
+		padding-top: 4px;
+		border-radius: 13px;
 		text-align: center;
-		height: 4.25em;
+		height: 3em;
 		cursor: default;
 	}
 
@@ -1878,7 +1884,7 @@ input, select, textarea {
 		margin: 0 auto;
 		min-height: 100vh;
 		max-width: 100%;
-		padding: 4em 0;
+		/* padding: 4em 0; */
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -1980,7 +1986,7 @@ input, select, textarea {
 
 			#main > .panel.intro {
 				padding: 0;
-				height: 20em;
+				height: 30em;
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -2091,11 +2097,13 @@ input, select, textarea {
 				}
 
 					#main > .panel.intro header h1 {
+						font-family: 'Kurale';
 						line-height: 1.25em;
 						margin-bottom: 0;
 					}
 
 					#main > .panel.intro header p {
+						font-family: 'Kurale';
 						letter-spacing: -0.015em;
 						font-size: 1.25em;
 						margin: 0.25em 0 0 0;
@@ -2147,11 +2155,12 @@ input, select, textarea {
 		text-align: center;
 		padding: 2em 0 0 0;
 		font-size: 0.75em;
+		margin-top: 150px;
 	}
 
 		#footer a {
 			color: #ddd;
-			color: rgba(255, 255, 255, 0.65);
+			color: rgb(24 23 23 / 65%);
 			-moz-transition: color .25s ease-in-out;
 			-webkit-transition: color .25s ease-in-out;
 			-ms-transition: color .25s ease-in-out;
@@ -2159,7 +2168,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: white;
+				color: rgb(182 164 207);
 			}
 
 		#footer .copyright {
