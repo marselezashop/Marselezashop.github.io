@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("fontawesome-all.min.css");
 @font-face {font-family: 'Kurale'; src: local('Kurale'), url('fonts/Kurale-Regular.ttf'),
-	format('embedded-opentype'); font-style: normal; font-weight: 300;}
+	format('embedded-opentype'); }
 
 /*
 	Astral by HTML5 UP
@@ -1335,10 +1335,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bgbg.jpg");
+		background-image: url("images/overlay.png"), url("images/zdxhg.png");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
-		background-attachment: fixed;
+		/*background-attachment: fixed;*/
+
 		overflow-y: scroll;
 	}
 
