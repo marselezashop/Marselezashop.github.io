@@ -1552,7 +1552,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	article div {
+	article .logo {
 		float: left;
 		display: block;
    		width: 15em;
