@@ -2065,7 +2065,7 @@ input, select, textarea {
 
 			#main > .panel.intro {
 				padding: 0;
-				height: 30em;
+				height: 25.5em;
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -2112,8 +2112,8 @@ input, select, textarea {
 						position: absolute;
 						top: 0;
 						left: 0;
-						width: 100%;
-						height: 100%;
+						max-width: 100%;
+    					max-height: 100%;
 						-moz-object-fit: cover;
 						-webkit-object-fit: cover;
 						-ms-object-fit: cover;
@@ -2133,7 +2133,7 @@ input, select, textarea {
 						width: 2.75em;
 						height: 2.75em;
 						background: #000;
-						background: rgba(0, 0, 0, 0.75);
+						background: #b1a6cdcc;
 						color: #ffffff;
 						text-align: center;
 						line-height: 2.75em;
@@ -2186,7 +2186,6 @@ input, select, textarea {
 						letter-spacing: -0.015em;
 						font-size: 1.25em;
 						margin: 0.25em 0 0 0;
-						padding-left: 3em;
 					}
 
 				@media screen and (max-width: 980px) {
