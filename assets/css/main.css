@@ -43,7 +43,7 @@ body select {
     padding-right: 2.75em;
     text-overflow: ellipsis;
     border-radius: 10px;
-    background-color: #f0d5bb80;
+    background-color: #c5badb;
     color: #fff;
     font-weight: 400;
     text-align: center;
@@ -1335,10 +1335,10 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/zdxhg.png");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, 100% 100%;
-		/*background-attachment: fixed;*/
+		background-image: url("images/overlay.png"), url("images/dryjc45457587876.svg");
+		background-repeat: repeat;
+		background-size: 100%;
+		background-attachment: fixed;
 
 		overflow-y: scroll;
 	}
@@ -1568,7 +1568,7 @@ input, select, textarea {
 		display: block;
 		width: 17em;
 		margin: 0em ​1em 1em 1em;
-		font-size: 30px;
+		
 	}
 	#contact .fab, .far{
 		font-weight: 900;
@@ -1842,15 +1842,14 @@ input, select, textarea {
 
 	#nav {
 		background: #f0d5bb8a;
-		margin: 10px;
+		width: 100%;
+		margin: 0.2em 0em 0.5em 0em;
 		padding-top: 4px;
 		border-radius: 13px;
 		text-align: center;
 		height: 3em;
 		cursor: default;
-		width: 25em;
     	float: right;
-    	margin-right: 6em;
 	}
 
 		#nav a {
@@ -1987,8 +1986,8 @@ input, select, textarea {
 		margin: 1em 9em 0em 9em;
 	}	
 	#wrapper select {
-		margin-left: 2em;
     	margin-top: 0.5em;
+    	display: inline-block;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -2279,12 +2278,21 @@ input, select, textarea {
    				font-family: 'Kurale'
     			/* cursor: default; */
     			}
-			#footerDesign {
-				margin-top: 150px; 
-				height: 34px;
-    			display: block;
-    			font-size: 12px;
-    			color: beige;
+    		#footer .listings {
+				padding-left: 0.5em;
+				margin-left: 0.5em;
+				display: block;
+				width: 100%;
+				background: #f0d5bb8a;
+				margin: 0.3em;
+				border-radius: 13px;
+				text-align: center;
+				text-decoration: none;
+				font-family: 'Kurale';
+			}
+			#footerDesign  {
+				color: beige;
+				margin-top: 2em;
 			}
 			#footerDesign li a {
 				color: beige;
@@ -2302,5 +2310,10 @@ input, select, textarea {
 				padding-left: 0.5em;
 				margin-left: 0.5em;
 			}
+
+				
+			#footerDesign {
+    			display: block;
+    			color: beige;
 
 		}
