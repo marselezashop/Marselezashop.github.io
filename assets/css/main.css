@@ -34,6 +34,33 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+body select {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23fff' /%3E%3C/svg%3E");
+    background-size: 1.25em;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 1em) center;
+    height: 2.75em;
+    padding-right: 2.75em;
+    text-overflow: ellipsis;
+    border-radius: 10px;
+    background-color: #f0d5bb80;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+  }
+
+    select option {
+      color: #777;
+      background: #fff;
+    }
+
+    select:focus::-ms-value {
+      background-color: transparent;
+    }
+
+    select::-ms-expand {
+      display: none;
+    }
 
 ol, ul {
 	list-style: none;
@@ -1379,6 +1406,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1.8em;
 		letter-spacing: -0.015em;
+		font-family: 'Kurale';
 	}
 
 	h3, h4, h5, h6 {
@@ -1520,6 +1548,18 @@ input, select, textarea {
 	}
 
 /* Section/Article */
+	 #contact header {
+		text-align: center;
+	}
+
+	article div {
+		float: left;
+		display: block;
+   		width: 15em;
+	}
+	#contact .fab {
+		float: right;
+	}
 
 	section, article {
 		margin-bottom: 3em;
@@ -1544,6 +1584,10 @@ input, select, textarea {
 				margin: 0 0 1em 0;
 			}
 
+		}
+		#work p a {
+			text-decoration: none;
+    		color: #b1a6cd;
 		}
 
 /* Image */
@@ -1779,6 +1823,9 @@ input, select, textarea {
 		text-align: center;
 		height: 3em;
 		cursor: default;
+		width: 25em;
+    	float: right;
+    	margin-right: 6em;
 	}
 
 		#nav a {
@@ -1855,6 +1902,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				opacity: 1.0;
+				color: #c5badb;
 			}
 
 				#nav a:hover span {
@@ -1873,6 +1921,9 @@ input, select, textarea {
 
 			#nav a span {
 				display: none;
+			}
+			#nav .icon-lang{
+
 			}
 
 		}
@@ -1906,9 +1957,13 @@ input, select, textarea {
 		-ms-transition: opacity 1s ease-in-out;
 		transition: opacity 1s ease-in-out;
 	}
-
-		body.is-preload #wrapper {
-			opacity: 0;
+	#wrapper .select {
+		width: 100%;
+		margin: 1em 9em 0em 9em;
+	}	
+	#wrapper select {
+		margin-left: 2em;
+    	margin-top: 0.5em;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -2155,8 +2210,8 @@ input, select, textarea {
 		text-align: center;
 		padding: 2em 0 0 0;
 		font-size: 0.75em;
-		margin-top: 150px;
-	}
+		
+	}/* margin-top: 150px; */
 
 		#footer a {
 			color: #ddd;
@@ -2182,6 +2237,31 @@ input, select, textarea {
 				margin-left: 1em;
 				border-left: solid 1px rgba(255, 255, 255, 0.25);
 				line-height: 1;
+			}
+			#footer .copyright li a {
+				display: block;
+    			width: 200px;
+   				 /* text-align: center; */
+    			background: #f0d5bb8a;
+    			/* margin: 10px; */
+    			padding-top: 19px;
+    			border-radius: 13px;
+    			text-align: center;
+   				height: 3em;
+   				text-decoration: none;
+   				font-size: 20px;
+   				font-family: 'Kurale'
+    			/* cursor: default; */
+    			}
+			#footerDesign {
+				margin-top: 150px; 
+				height: 34px;
+    			display: block;
+    			font-size: 12px;
+    			color: beige;
+			}
+			#footerDesign li a {
+				color: beige;
 			}
 
 				#footer .copyright li:first-child {
