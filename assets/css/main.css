@@ -1551,6 +1551,11 @@ input, select, textarea {
 	 #contact header {
 		text-align: center;
 	}
+	#contact .logo{
+		width: 20em;
+  		margin-left: 1em;
+	}
+
 
 	#contact .logo {
 		float: left;
@@ -2181,6 +2186,7 @@ input, select, textarea {
 						letter-spacing: -0.015em;
 						font-size: 1.25em;
 						margin: 0.25em 0 0 0;
+						padding-left: 3em;
 					}
 
 				@media screen and (max-width: 980px) {
