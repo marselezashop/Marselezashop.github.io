@@ -1552,13 +1552,32 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	article .logo {
+	#contact .logo {
 		float: left;
 		display: block;
    		width: 15em;
 	}
-	#contact .fab {
+	#contact .fabfa {
 		float: right;
+		display: block;
+		width: 17em;
+		margin: 0em ​1em 1em 1em;
+		font-size: 30px;
+	}
+	#contact .fab, .far{
+		font-weight: 900;
+	}
+	#contact .fabfa i a {
+		text-decoration: none;
+		color: #4468548c;
+		font-family: 'Kurale'
+
+	}
+	#contact .fabfa i  {
+	    display: inline-block;
+	    margin-right: 5em;
+	    margin-top: 1em;
+
 	}
 
 	section, article {
