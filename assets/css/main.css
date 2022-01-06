@@ -1397,6 +1397,7 @@ input, select, textarea {
 	strong, b, h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
 		color: #363636;
+		font-family: 'Kurale';
 	}
 
 	h1 {
@@ -1409,6 +1410,19 @@ input, select, textarea {
 		letter-spacing: -0.015em;
 		font-family: 'Kurale';
 	}
+	#work h2{
+		font-size: 1em;
+	}
+	#work header{
+		margin-bottom: 1em; 
+	}
+	#work span{
+		font-family: 'Kurale';
+		font-weight: initial;
+		margin: 1em 0em 2em 0em;
+    	display: block;
+	}
+
 
 	h3, h4, h5, h6 {
 		font-size: 1.25em;
