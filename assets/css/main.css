@@ -2183,8 +2183,10 @@ input, select, textarea {
 					}
 
 					#main #home .panel.intro p{
+							font-family: 'Kurale';
 						    text-align: center;
     						margin-bottom: 2em;
+    						font-weight: initial;
 					}
 					#main #home .panel.intro .logo{
 						margin: 0 auto;
