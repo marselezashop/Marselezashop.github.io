@@ -1417,6 +1417,7 @@ input, select, textarea {
 		margin-bottom: 1em; 
 	}
 	#work span{
+		padding: 1em 1em 1em 1em;
 		font-family: 'Kurale';
 		font-weight: initial;
 		margin: 1em 0em 2em 0em;
@@ -1563,6 +1564,7 @@ input, select, textarea {
 	}
 
 /* Section/Article */
+
 	 #contact header {
 		text-align: center;
 	}
@@ -1570,6 +1572,7 @@ input, select, textarea {
 		width: 20em;
   		margin-left: 1em;
 	}
+
 
 
 	#contact .logo {
@@ -2046,7 +2049,7 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		width: 100%;
-		background: #ffffff;
+		background: #f7f2ecc7;
 		box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
 		-moz-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		-webkit-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
@@ -2075,6 +2078,10 @@ input, select, textarea {
 					padding: 2em 1.5em 1.5em 1.5em;
 				}
 
+			}
+			#main #work {
+				text-align: center;
+				padding: 2em;
 			}
 
 			#main > .panel.intro {
@@ -2173,6 +2180,18 @@ input, select, textarea {
 					#main > .panel.intro .pic:hover .arrow {
 						width: 3em;
 						padding-right: 0.25em;
+					}
+
+					#main #home .panel.intro p{
+						    text-align: center;
+    						margin-bottom: 2em;
+					}
+					#main #home .panel.intro .logo{
+						margin: 0 auto;
+						width: 50%;
+					}
+					.panel.intro .jumplink.pic {
+
 					}
 
 				#main > .panel.intro header {
